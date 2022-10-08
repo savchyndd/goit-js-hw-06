@@ -116,7 +116,8 @@ const images = [
    alt: "Orange and White Koi Fish Near Yellow Koi Fish", 
   }, 
   {
-   url: "https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?dpr=2&h=750&w=1260",    alt: "Group of Horses Running", 
+   url: "https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?dpr=2&h=750&w=1260", 
+   alt: "Group of Horses Running", 
   }, 
 ];
 ```
