@@ -17,7 +17,7 @@ const listGalleryRef = document.querySelector('.gallery');
 
 const makeGalleryItems = images => {
   const { url, alt } = images;
-  return `<li><img src="${url}" alt="${alt}"></li>\n`;
+  return `<li><img src="${url}" alt="${alt}" style="width: 100%"></li>\n`;
 };
 
 const galleryItems = images.map(makeGalleryItems).join('');
@@ -27,6 +27,7 @@ listGalleryRef.insertAdjacentHTML('beforeend', galleryItems);
 listGalleryRef.style.listStyleType = 'none';
 listGalleryRef.style.display = 'flex';
 listGalleryRef.style.justifyContent = 'space-between';
+listGalleryRef.style.gap = '10px';
 listGalleryRef.style.padding = '50px';
 listGalleryRef.style.backgroundColor = '#D9D9D9';
 listGalleryRef.style.borderRadius = '30px';
